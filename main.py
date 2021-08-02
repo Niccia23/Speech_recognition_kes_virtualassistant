@@ -55,12 +55,12 @@ def respond(voice_data):
         url = 'https://google.nl/maps/place/' + location + '/&amp;'
         webbrowser.get().open(url)
         kes_speak('Here is the location of ' + location)
-    if 'What is the best book ever?' in voice_data:
-        kes_speak('I am from a novel')
+    if 'best book ' in voice_data:
+        kes_speak('I am a character from a literature classic')
     if 'The man who watched trains go by' in voice_data:
         kes_speak('You must be a genious!!!')
     if 'exit' in voice_data:
-        kes_speak('Oh you are going to leave me alone again, ok...')
+        kes_speak('Oh Nooooooooooooo       you are going to leave me alone again, ok...')
         exit()
 
 
