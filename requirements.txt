@@ -1,0 +1,10 @@
+speech recognition
+playsound
+gTTS
+
+the rest should be already in your machine
+webbrowser
+time
+os
+random
+ctime
